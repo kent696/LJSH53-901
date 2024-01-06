@@ -1,0 +1,61 @@
+/*html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+width: 1024 px;
+}
+#contents{
+width: 740px;
+}
+footer{
+width: 1024px;
+}
+
+body {
+width: 100%;
+}
+#contents{
+width: 76.266%;
+}
+footer{
+width: 100%;
+}
+embed, object{ max-width:100%; }
+
+ediaqueries.js。
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+body {font: normal 100% Helvetica, Arial, sans-serif;}
+small {font-size: 0.875em;}
+
+.main {float: right;width: 70%;}
+.leftBar {float: left;width: 25%;}
+
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 400px)" href="tinyScreen.css" />
+
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 400px) and (max-device-width: 600px)" href="smallScreen.css" />
+
+import url("tinyScreen.css") screen and (max-device-width: 400px);
+
+@media screen and (max-device-width: 400px) {
+.column {float: none;width:auto;}
+#sidebar {display:none;}
+}
+
+img { max-width: 70%;}
+
+img, object { max-width: 70%;}
+img { width: 70%; }
+
+img { -ms-interpolation-mode: bicubic; }
+
+addLoadEvent(function() {
+var imgs = document.getElementById("content").getElementsByTagName("img");
+imgSizer.collate(imgs);
+});
+
+

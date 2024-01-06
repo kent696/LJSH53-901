@@ -1,0 +1,137 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.circleImg{
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+
+  }
+
+body {
+  background: linear-gradient(to bottom right, #5ed8e8, #061dcb);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/* 設定
+標題樣式 */
+h1 {
+  color: #ffffff; /* 设置文字颜色 */
+  text-align: center;
+  -webkit-text-stroke: 2px #000000; /* 添加描边效果，2px为描边宽度，#fff为描边颜色 */
+  padding: 10px;
+  text-size-adjust: 50px;
+}
+
+
+/* 設定超連結樣式 */
+a {
+  text-decoration: none;
+  color: #00ff88;
+  -webkit-text-stroke: 1px #000000;
+  text-size-adjust: 300px;
+  transition: color 0.2s ease-in-out;
+}
+
+
+.my-button {
+  background-color: #e4405f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/*IG 按鈕*/
+.my-button:hover {
+  background-color: #f4446e;
+}
+.label {
+  margin-left: 5px;
+}
+.my-button:hover {
+  opacity: 0.9; /* 当鼠标悬停时，降低按钮的不透明度 */
+}
+
+.button{
+ background-color: #00ff33;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+opacity: 0.9; /* 当鼠标悬停时，降低按钮的不透明度 */
+}
+
+*html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+width: 1024 px;
+}
+#contents{
+width: 740px;
+}
+footer{
+width: 1024px;
+}
+
+body {
+width: 100%;
+}
+#contents{
+width: 76.266%;
+}
+footer{
+width: 100%;
+}
+embed, object{ max-width:100%; }
+
+ediaqueries.js。
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+body {font: normal 100% Helvetica, Arial, sans-serif;}
+small {font-size: 0.875em;}
+
+.main {float: right;width: 70%;}
+.leftBar {float: left;width: 25%;}
+
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 400px)" href="tinyScreen.css" />
+
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 400px) and (max-device-width: 600px)" href="smallScreen.css" />
+
+import url("tinyScreen.css") screen and (max-device-width: 400px);
+
+@media screen and (max-device-width: 400px) {
+.column {float: none;width:auto;}
+#sidebar {display:none;}
+}
+
+img { max-width: 70%;}
+
+img, object { max-width: 70%;}
+img { width: 70%; }
+
+img { -ms-interpolation-mode: bicubic; }
+
+addLoadEvent(function() {
+var imgs = document.getElementById("content").getElementsByTagName("img");
+imgSizer.collate(imgs);
+});
+
