@@ -1,0 +1,48 @@
+<head>
+<link rel="shortcut icon"
+    href="測試用.png">
+  
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>pop測試版</title>
+	</head>
+
+ <body bgcolor="#33CCFF">
+
+
+
+	<div align="center">
+    <font id="sh" style=" color:white;face:Yu Gothic UI Semibold" size="7">POP測試版</font>
+    <br>
+		<font id="sr" style=" color:white;face:Yu Gothic UI Semibold" size="7">6</font>
+		<div style=" color: ghostwhite;size: 100;">
+			<!--點擊前--><img id="img" src="測試用.png" width="400" 
+        <!--點擊後--><img id="iimg" src="測試用真.png" width="0">
+        <h1><a style=" color:white;face:Yu Gothic UI Semibold" 
+  
+    </die>
+          
+    <script>
+      
+      var img = document.getElementById("img");
+      var sc=document.getElementById("sr");
+      var x = 0;
+      var imgi=document.getElementById("iimg")
+      img.addEventListener("click" ,function(){
+          x++
+          sc.innerText=x
+          img.width="0"
+          imgi.width="400"
+          imgi.liang="400"
+          setTimeout(() => {
+              img.width="400"
+              img.lang="400"
+              imgi.width="0"
+          }, 250)    
+      })
+      
+      
+    </script>
+    
+  
+</html>
